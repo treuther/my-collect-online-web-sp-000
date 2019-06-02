@@ -1,5 +1,3 @@
-require "pry"
-
 list = ["Tim Jones", "Bob Costas", "Don Knotts"]
 
 def my_collect(array)
@@ -14,5 +12,3 @@ def my_collect(array)
 end
 
 my_collect(list) {|i| i.split(" ").first}
-
-binding.pry
